@@ -1,0 +1,32 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+.tile-stats:hover {
+    background-color: #337ab7 !important; /* Adjust to your desired hover color */
+    color: #fff; /* Adjust text color for better contrast */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
+    transform: translateY(-2px); /* Slightly lift the tile on hover */
+  }
+  
+  /* Add similar hover styles with shadow and lift for other tile colors */
+  .tile-stats.tile-primary:hover, 
+  .tile-stats.tile-info:hover, 
+  .tile-stats.tile-red:hover, 
+  .tile-stats.tile-green:hover, 
+  .tile-stats.tile-blue:hover, 
+  .tile-stats.tile-purple:hover, 
+  .tile-stats.tile-black:hover, 
+  .tile-stats.tile-brown:hover, 
+  .tile-stats.tile-pink:hover, 
+  .tile-stats.tile-aqua:hover {
+    background-color: var(--hover-color); /* Use a CSS variable for easier color adjustments */
+    color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+
+body {
+	
+}
