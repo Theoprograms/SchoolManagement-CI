@@ -4,7 +4,7 @@
         <!-- logo -->
         <div class="logo" style="">
             <a href="<?php echo base_url(); ?>">
-                <img src="uploads/logo.png"  style="max-height:60px;"/>
+                <img src="uploads/fr fred.webp"  style="max-height:60px;border-radius:50%"/>
             </a>
         </div>
 
